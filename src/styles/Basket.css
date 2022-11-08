@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+.basket {
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 15px;
+    max-height: 75vh;
+    width: 25%;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    background-color: #0c0c0c;
+    color: #f1f1f1;    
+}
+
+.my-basket {
+    background-color: #f5f5f7;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 20px 8px inset;
+    width: 100%;
+    height: 450px;
+    overflow:auto;
+    overflow-x: hidden;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #0c0c0c;
+    height: 50px;
+}
+
+.total p {
+    margin-top: 10px;
+    font-family: 'Noto Serif', serif;
+    color: rgb(247, 34, 34);;
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.total span {
+    margin-top: 10px;
+    font-family: 'Noto Serif', serif;
+    color: rgb(247, 34, 34);;
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+    overflow-x: hidden;
+}
+
+
+
+.products-content {
+    display: block;
+    position: relative;
+    margin: 25px ;
+    background-color: black;
+    border-radius: 8px;
+    width: 300px;
+    animation-name: slideContent;
+    animation-duration: 2s;
+}
+
+@keyframes slideContent {
+    from {
+      margin: -100px;
+      width: 300px;
+    }
+  
+    to {
+      margin: 25px;
+      width: 300px;
+    }
+  }
+  
+
+/* .products-content:hover {
+    transform: scale(0.9);
+} */
+
+.image-product img {
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 100px;
+}
+
+.product.title.price {
+    margin-top: 25px;
+    position: absolute;
+    left: 150px ;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.product.content p {
+    margin-bottom: 10px;
+    font-family: 'Noto Serif', serif;
+    font-size: 1rem;
+}
+
+.my-basket span.quantity {
+    color: #f1f1f1;
+    position: absolute;
+    right: 15px ;
+    top: 0;
+    margin-top: 35px;
+    font-size: 1rem;
+}
+
+.basket-footer {
+    padding: 15px 0  15px;
+    text-align: center;
+}
+
+.delete-btn {
+   position: absolute;
+   margin-top: -70px;
+   right: 5px;
+   background-color: #f72222;
+   padding: 15px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.trashcan-icon {
+    color: #f1f1f1;
+    max-width: inherit;
+}
+
+.empty {
+    margin-top: 200px;
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+    font-family: 'Noto Serif', serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    opacity: 80%;
+}

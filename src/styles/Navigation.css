@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+
+.navigation {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.989);
+    z-index: 1000;
+    
+}
+
+a {
+    position: relative;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.2rem;
+    top: -35px;
+    margin: 15px;
+    padding: 10px;
+}
+
+a:hover{
+    font-size: 1.3rem;
+}
+
+img {
+    width: 80px;
+    text-align: left;
+}

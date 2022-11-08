@@ -1,0 +1,12 @@
+.products {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 95%;
+    height: 80vh;
+    background-color: rgba(255, 255, 255, 0.222);
+    border-radius: 8px;
+    z-index: 500;
+}
+

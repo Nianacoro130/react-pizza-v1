@@ -1,0 +1,10 @@
+.nofound {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 700px;  
+}
+
+.nofound p {
+    text-align: center;
+    color: white;
+}
